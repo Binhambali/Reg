@@ -1,0 +1,49 @@
+body::before{
+    display: block;
+    content: '';
+    height: 72px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover{
+    /* background-color: #fff; */
+    color: rgb(189, 139, 33);
+}
+
+#reg a{
+    text-decoration: none;
+    background-color: rgb(33, 140, 189);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 400;
+}
+#learn img{
+    width: 80%;
+}
+.card-body2{
+    height: 300px;
+}
+
+#instructors img{
+    background-color: rgb(182, 182, 179);
+     width:50px;
+     align-items: center;
+     margin: 10px;
+}
+
+
+@media(min--width: 500px){
+    .news-input{
+        width:50%;
+    }
+
+    .card-body2 {
+        columns: 1;
+        word-wrap: normal;
+    }
+}
+
