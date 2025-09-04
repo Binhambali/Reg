@@ -25,25 +25,20 @@ body::before{
     width: 80%;
 }
 .card-body2{
-    height: 300px;
+    height: 320px;
 }
 
 #instructors img{
     background-color: rgb(182, 182, 179);
      width:50px;
      align-items: center;
-     margin: 10px;
+     margin: 5px;
 }
 
 
 @media(min--width: 500px){
     .news-input{
         width:50%;
-    }
-
-    .card-body2 {
-        columns: 1;
-        word-wrap: normal;
     }
 }
 
