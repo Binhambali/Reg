@@ -29,10 +29,8 @@ body::before{
 }
 
 #instructors img{
-    background-color: rgb(182, 182, 179);
-     width:50px;
-     align-items: center;
-     margin: 5px;
+    width:100px;
+    background-color: rgb(201, 200, 199);
 }
 
 
